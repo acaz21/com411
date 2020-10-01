@@ -1,0 +1,12 @@
+#Robot
+print("##########")
+print("#  W  W  #")
+print("#    0   #")
+print("##########")
+print("\t##\n\t##")
+print("####\t#######")
+print("#      #")
+print("#      #")
+print("#      #")
+print("########")
+print("#      #\n#      #\n")
