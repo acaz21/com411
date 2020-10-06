@@ -4,12 +4,14 @@ name = input()
 print("What is your age?")
 age = int(input())
 
-print ("How tall are you (in meters)?")
-height = int(input()
+print("What is your weight?")
+weight = float(input())
 
-print ("How much do you weigh?")
-weight= int(input))
+print("What is your height?")
+height = float(input())
 
-bmi= height**-weight
+#Calculate bmi
+bmi = weight / (height ** 2)
 
-print (name +"you are" ,age +"years old and you bmi is" + bmi)
+#Display result
+print(name, "your bmi is" , bmi)
