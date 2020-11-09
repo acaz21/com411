@@ -9,6 +9,7 @@ def menu():
     print("{}: {}". format(index, dir[index]))
   index = int(input())
   return dir[index]
+  
 def run():
   route = []
   print("Working out escape route...")
